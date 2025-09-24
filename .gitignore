@@ -1,0 +1,78 @@
+# ===================================================================
+# Python Byte-code, Caches, and Eggs
+# ===================================================================
+# Python generates these files automatically. They are not part of the source code.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# ===================================================================
+# Virtual Environments
+# ===================================================================
+# These are large, system-specific, and can be recreated from a requirements file.
+venv/
+env/
+.venv/
+.env/
+.tox/
+.nox/
+
+# ===================================================================
+# Distribution / Build Artifacts
+# ===================================================================
+# These are the output of your build process, not the source.
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg
+*.whl
+
+# ===================================================================
+# Secrets and Configuration (IMPORTANT!)
+# ===================================================================
+# NEVER commit secrets, API keys, or credentials.
+# Use a `.env.example` file to show developers what variables are needed.
+.env
+*.env
+secrets.ini
+instance/  # Common pattern for Flask to hold secret configs and DBs
+
+# ===================================================================
+# Databases and Logs
+# ===================================================================
+# Local databases and log files should not be version controlled.
+*.sqlite3
+*.db
+*.db.bak
+*.log
+
+# ===================================================================
+# IDE / Editor-specific files
+# ===================================================================
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# ===================================================================
+# Testing and Coverage Reports
+# ===================================================================
+# These are generated after running tests and should not be stored.
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
